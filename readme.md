@@ -21,7 +21,7 @@ The default public route is `/contact`, which will show the form for the `Flatly
 Using AsgardCMS's module download command:
 
 ``` bash
-php artisan asgard:download:module asgardcms/contact --migrations --seeds
+php artisan asgard:download:module micvital/contact --migrations --seeds
 ```
 
 This will download the module, run its migrations and seed some test data.
@@ -31,7 +31,7 @@ This is the recommended way if you wish to customise the fields, views, etc.
 ### Composer
 
 ``` bash
-composer require asgardcms/contact
+composer require micvital/contact
 php artisan module:migrate contact
 ```
 
